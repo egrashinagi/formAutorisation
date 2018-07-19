@@ -1,0 +1,17 @@
+&__title {
+  display: flex;
+  align-items: flex-start;
+
+  padding: 0 10px 10px 0;
+
+  color: #a7b2c1;
+  font-weight: 100;
+  font-size: 16px;
+
+  @import '_black/info__title_black';
+  @import '_padding_l/info__title_padding_l';
+  @import '_big/info__title_big';
+  @import '_padding_s/info__title_padding_s';
+  @import '_right/info__title_right';
+  @import '_padding_xl/info__title_padding_xl';
+}

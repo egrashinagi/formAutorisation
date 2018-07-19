@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  padding: 20px;
+  border: 1px solid #e4e9ee;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10);
+  background-color: #f7f8f8;
+
+  @import '_margin_l/card_margin_l';
+  @import '_bottom/card_bottom';
+  @import '_top/card_top';
+}

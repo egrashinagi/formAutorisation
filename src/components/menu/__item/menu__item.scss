@@ -1,0 +1,17 @@
+&__item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+
+  background-color: #1f2229;
+
+  list-style: none;
+  cursor: pointer;
+  
+  &:active {
+    background-color: #2a2d37;
+  }
+
+  @import '_active/menu__item_active';
+}

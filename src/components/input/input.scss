@@ -1,0 +1,32 @@
+.input {
+  margin-right: 10px;
+  border: 1px solid #e4e9ee;
+  border-radius: 3px;
+
+  outline-style: none;
+
+  height: 42px;
+  width: 308px;
+
+  font-size: 14px;
+  color: #353535;
+  text-align: center;
+
+  @import '_height_l/input_height_l';
+  @import '_width_l/input_width_l';
+  @import '_left/input_left';
+  @import '_width_xl/input_width_xl';
+
+  &::placeholder {
+    color: #bec6cf;
+  }
+
+  &_display {
+    display: none;
+  }
+
+  &_border_red {
+    border: 1px solid red;
+  }
+;
+}

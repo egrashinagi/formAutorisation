@@ -1,0 +1,19 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+  padding-left: 20px;
+  max-width: 800px;
+
+  @import '__title/info__title';
+  @import '_row/info_row';
+  @import '_padding_l/info_padding_l';
+  @import '_more/info_more';
+  @import '_bgc/info_bgc';
+  @import '_width_min/info_width_min';
+  @import '_width_max/info_width_max';
+  @import '_padding_none/info_padding_none';
+  @import '_height/info_height';
+}

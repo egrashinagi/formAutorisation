@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+
+  padding: 80px 100px;
+
+  background-color: #101114;
+
+  font-family: Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+
+  justify-content: flex-start;
+
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 60px;
+
+  &_gray {
+    background-color: #e4e9ee;
+    padding: 20px 245px 20px 136px;
+    margin-bottom: 50px;
+  }
+
+  &_end {
+    justify-content: flex-end;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  &_form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &_slip {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+
+    margin-bottom: 150px;
+  }
+
+  &_margin {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  &_padding_none {
+    padding: 0;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+
+  z-index: 4;
+}
+
+.icon {
+  position: absolute;
+  content: url("assets/images/q.png");
+
+  z-index: 6;
+
+  background-color: #fff;
+  top: 150px;
+  left: 335px;
+}
