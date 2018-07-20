@@ -19,6 +19,9 @@
 
   &::placeholder {
     color: #bec6cf;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   &_display {
@@ -29,14 +32,4 @@
     border: 1px solid red;
   }
 
-}
-
-@media screen and (max-width: 768px) {
-
-  .input_min {
-    z-index: 5;
-    //position: absolute;
-    top: 330px;
-    right: 250px;
-  }
 }
