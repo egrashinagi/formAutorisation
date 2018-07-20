@@ -60,10 +60,24 @@ body {
   }
 
   .card.card_margin_l.card_slip {
-    display: none;
+    width: 100px;
+    height: 10px;
   }
 
   .info.info__width_min {
     min-width: 500px;
   }
+
+  .cards_gray {
+    display: none;
+  }
+
+  .card {
+    background-color: #f7f8f8;
+  }
+
+  .icon {
+    display: none;
+  }
+
 }
