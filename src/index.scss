@@ -6,14 +6,8 @@
 @import './components/input/input';
 
 body {
+  font-family: ArialMT;
   padding: 10px;
-}
-
-.menu__item-link {
-  margin-right: 0;
-  font-size: 16px;
-  font-weight: normal;
-  padding: 10px 5px 10px 60px;
 }
 
 .info__title_big {
@@ -23,61 +17,4 @@ body {
 
 .info__title_padding_xl {
   padding: 30px 0 30px 40px;
-}
-
-
-@media screen and (max-width: 768px) {
-
-  body {
-    flex-direction: column;
-    padding: 10px 20px;
-  }
-
-  .menu {
-    margin-right: 0;
-    font-size: 16px;
-    font-weight: normal;
-    padding: 0;
-    min-width: 500px;
-  }
-
-  .menu__item {
-    display: flex;
-  }
-
-  .menu__item-link {
-    margin-right: 0;
-    font-size: 18px;
-    padding: 0;
-  }
-
-  .info_more {
-    display: none;
-  }
-
-  .input_display {
-    display: flex;
-  }
-
-  .card.card_margin_l.card_slip {
-    width: 100px;
-    height: 10px;
-  }
-
-  .info.info__width_min {
-    min-width: 500px;
-  }
-
-  .cards_gray {
-    display: none;
-  }
-
-  .card {
-    background-color: #f7f8f8;
-  }
-
-  .icon {
-    display: none;
-  }
-
 }

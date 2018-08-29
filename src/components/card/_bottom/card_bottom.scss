@@ -5,25 +5,3 @@
 
   z-index: 2;
 }
-
-
-@media screen and (max-width: 768px){
-
-  &_bottom {
-
-    top: 214px;
-    left: -300px;
-
-    z-index: auto;
-  }
-
-  .cards_end {
-    z-index: 7;
-  }
-
-  .input-min::placeholder {
-    color: #bec6cf;
-  }
-
-
-}

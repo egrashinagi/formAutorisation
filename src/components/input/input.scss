@@ -18,12 +18,15 @@
   @import '_width_xl/input_width_xl';
 
   &::placeholder {
-    color: #bec6cf;
+    color: white;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
+  :focus::-webkit-input-placeholder {
+    color: transparent
+  }
   &_display {
     display: none;
   }
@@ -32,4 +35,36 @@
     border: 1px solid red;
   }
 
+}
+
+input[placeholder] {
+  text-overflow: ellipsis;
+}
+
+input::-moz-placeholder {
+  text-overflow: ellipsis;
+}
+
+input:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+
+input:-ms-input-placeholder {
+  text-overflow: ellipsis;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+:focus::-moz-placeholder {
+  color: transparent
+}
+
+:focus:-moz-placeholder {
+  color: transparent
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent
 }

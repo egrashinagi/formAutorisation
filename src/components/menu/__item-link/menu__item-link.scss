@@ -3,7 +3,7 @@
   flex-wrap: nowrap;
   flex-shrink: 0;
 
-  padding: 30px 100px 30px 30px;
+  padding: 20px;
   margin-right: 100px;
 
   text-decoration: none;
@@ -12,15 +12,5 @@
   font-size: 22px;
 
   @import '_active/menu__item-link_active';
-}
-
-@media screen and (max-width: 768px){
-
-  .menu__item-link {
-    margin-right: 80px;
-    padding: 10px 5px 10px 10px;
-
-    font-size: 16px;
-  }
 }
 
