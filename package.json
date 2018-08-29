@@ -22,6 +22,7 @@
     "webpack-dev-server": "^2.10.0"
   },
   "dependencies": {
-    "fonts": "0.0.2"
+    "fonts": "0.0.2",
+    "url-parse": "^1.4.3"
   }
 }
