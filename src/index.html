@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Форма</title>
+    <link rel="stylesheet" href="./../node_modules/fonts">
 </head>
 <body>
 <ul class="menu">
@@ -83,6 +84,13 @@
                 <input name="username" class="input input_left" type="text" minlength="4"
                        placeholder="Держатель карты">
             </label>
+            <div class="cards cards_end cards_state">
+                <label>
+                    <input name="pass" class="input input_height_l input_width_xl input_min" type="password"
+                           maxlength="3" placeholder="Код CCV2/ CVC2">
+                    <span class="icon"></span>
+                </label>
+            </div>
         </div>
         <div class="card card_margin_l card_slip card_bottom">
             <div class="cards cards_gray"></div>
@@ -94,9 +102,10 @@
                     <span class="icon"></span>
                 </label>
             </div>
+
         </div>
         <div class="buttons">
-            <button class="button button_width_l button_margin" type="submit" name="button" formtarget="output">
+            <button class="button button_width_l" type="submit" name="button" formtarget="output">
                 <span class="button__text">Оплатить</span>
             </button>
         </div>
