@@ -68,3 +68,8 @@ input:-ms-input-placeholder {
 :focus:-ms-input-placeholder {
   color: transparent
 }
+
+.errorrs input,
+.errorrs textarea {
+  border: 1px solid red;
+}

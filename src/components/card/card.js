@@ -1,6 +1,5 @@
 const form = document.querySelector('form.cards');
 const fields = form.querySelectorAll('.input');
-const validateButton = form.querySelector('.button');
 
 
 function generateError() {
@@ -9,10 +8,6 @@ function generateError() {
     error.style.color = 'red';
     error.textContent = '*';
     error.style.padding = '3px';
-
-    // for (let i = 0; i < fields.length; i++) {
-    //     fields[i].style.borderColor = 'red';
-    // }
 
     return error;
 }
