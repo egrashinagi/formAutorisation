@@ -85,3 +85,47 @@ body {
   top: 110px;
   left: 310px;
 }
+
+
+select {
+  display: flex;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align-last: center; // для Хром
+  text-align: center; // для FF
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.select::after {
+  content: "v";
+  padding: 0 8px;
+  font-size: 12px;
+  position: absolute;
+  right: 18px;
+  top: 11px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  pointer-events: none;
+  box-sizing: border-box;
+  color: #a7b2c1;
+  font-family:  Arial;
+}
+select {
+  padding-right: 25px;
+  //-webkit-appearance: none;
+  //-moz-appearance: none;
+  //appearance: none;
+}
+
+.selects {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
